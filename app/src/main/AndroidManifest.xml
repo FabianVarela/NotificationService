@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".MessageService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
